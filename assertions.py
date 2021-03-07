@@ -1,4 +1,7 @@
-# provide checks of your code
+# use assertions to provide checks of your code
+# assert <condition>
+# assert <condition>, <error message>
+
 def f(a, b):
     return a+b
 
