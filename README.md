@@ -9,7 +9,7 @@
 ## Key Features of Python:
 
 - interpreted language: no complilation before running
-- dynamically typed:
+- strongly and dynamically typed:
 - object oriented: function is the first-class objects
 - quick writting but slower execution
 - used a scripting / general purpose language
@@ -18,6 +18,17 @@
 
 - source code is compiled into byte code
 - byte code is then interpreted by the PVM to give the machine language
+- generally considered as a interpreted language
+
+## Interpreted Language:
+
+- executed line by line, other languages such as JS, R, PHP, Ruby are the same
+
+## Memory in Python:
+
+- handled by python memory manager
+- memory allocated by manager in form of a private heap space
+- all objects are store on the heap and not accessible to the programmer
 
 ## **pycache**:
 
@@ -27,6 +38,12 @@
 
 - CPython is the implementation of Python concept in C language
 - Other implementations include PyPy, JPython
+
+## namespace:
+
+- namespace ensures object names are unique w/o conflicts
+- namespaces are implemented as dictionaries
+- local -> global -> built-in
 
 ## What are Python packages? Libraries?
 
