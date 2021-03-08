@@ -1,3 +1,5 @@
+# Generator: Functions that return an iterable set of items are called generators.
+
 def sqaure(nums):
     res = []
     for num in nums:
